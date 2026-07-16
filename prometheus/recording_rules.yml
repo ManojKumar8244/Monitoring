@@ -1,0 +1,11 @@
+groups:
+
+- name: recording_rules
+
+  rules:
+
+  - record: job:up:sum
+    expr: sum(up)
+
+  - record: job:up:avg
+    expr: avg(up)
