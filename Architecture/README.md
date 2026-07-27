@@ -1,18 +1,18 @@
 # Project 5.1 Architecture
 
-                    User
+                     User
                       │
                       ▼
-      Infrastructure Targets
-     (Servers / Applications)
+           Infrastructure Targets
+          (Servers / Applications)
                       │
                       ▼
                Prometheus Server
-            (Collects Metrics)
+              (Collects Metrics)
                       │
                       ▼
-             Grafana Dashboard
-             (Visualization)
+              Grafana Dashboard
+               (Visualization)
                       │
                       ▼
           End User / Operations Team
@@ -50,7 +50,7 @@
           ┌───────────────┴───────────────┐
           │                               │
           ▼                               ▼
-  Prometheus Metrics              Jaeger Traces
+     Prometheus Metrics              Jaeger Traces
           │                               │
           ▼                               │
      Prometheus   ───────────────►   Alertmanager
@@ -67,7 +67,7 @@
                  ▼                 ▼                 ▼
               Sidecar          Sidecar          Sidecar
                  │                 │                 │
-                 └──────────┬──────┴──────┬──────────┘
+                 └──────────┬──────┴─────────────────┘
                             ▼
                      Object Storage
                          (MinIO)
