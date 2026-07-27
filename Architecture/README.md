@@ -53,12 +53,10 @@
   Prometheus Metrics              Jaeger Traces
           │                               │
           ▼                               │
-     Prometheus ───────────────► Alertmanager
-                                       │
-                                       ▼
-                           Email / Slack (Optional)
-
-          Kibana is NOT required
+     Prometheus   ───────────────►   Alertmanager
+                                          │
+                                          ▼
+                                Email / Slack (Optional)
 
           
 # Project 5.4 Architecture
