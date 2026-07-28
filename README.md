@@ -44,16 +44,11 @@ The projects are built using Prometheus, Grafana, Elasticsearch, Logstash, Kiban
 ```
 Monitoring/
 
-├── prometheus/
-├── alertmanager/
-├── docker-compose.yml
+├── Architecture/
 ├── Screenshots/
-│
-│── Project-5.1
-│── Project-5.2
-│── Project-5.3
-│── Project-5.4
-│
+├── alertmanager/
+├── prometheus/
+├── docker-compose.yml
 └── README.md
 ```
 
